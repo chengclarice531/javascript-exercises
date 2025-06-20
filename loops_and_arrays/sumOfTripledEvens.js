@@ -5,3 +5,4 @@ function sumOfTripledEvens(array) {
     .reduce((sum, num) => sum + num, 0); // Sum the tripled values
 }
 array = [1, 2, 3, 4, 5, 6];
+console.log("The sum of this array (", array, ") is ", sumOfTripledEvens(array)); // Output: 36
